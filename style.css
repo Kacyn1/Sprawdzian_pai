@@ -42,6 +42,7 @@ body {
     justify-content: space-around;
     width: 70%;
     
+    
 }
  .instagram{
     flex: 1;
@@ -51,6 +52,10 @@ body {
     float: left;
     padding:20px;
     margin: 10px;
+    font-size: 30px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
     
 }
 .facebook{
@@ -61,8 +66,10 @@ body {
     float: left;
     padding:20px;
     margin: 10px;
-   
-
+    font-size: 30px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 .youtube{
     flex: 1 ;
@@ -72,6 +79,25 @@ body {
     float: left;
     padding:20px;
     margin: 10px;
+    font-size: 30px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#projects{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.github{
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+   
 }
 #footer{
     width: 70%;
