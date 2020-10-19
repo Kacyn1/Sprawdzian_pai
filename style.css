@@ -4,37 +4,100 @@ body {
 }
 #container{
     display: flex;
-    text-align: center;
+    text-align: center; 
     align-items: center;
     
     flex-direction: column;
 }
 #header{
     display: flex;
-    text-align: center;
+    text-align: center; 
     align-items: center;
     flex-direction: column;
     
 }
+#portfolio{
+    padding: 50px;
+}
+#stack_tech{
+ width: 70%;
+}
+.lewo{
+    float:left;
+    /* background-color: royalblue; */
+    width: 45%;
+    /* margin: 15px; */
+    padding: 20px;
+}
+.prawo {
+    float: left;
+    /* background-color: rebeccapurple; */
+    width: 45%;
+    /* margin:15px; */
+    padding:20px;
+}
 #media{
-    flex-direction: row;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+    
 }
  .instagram{
     flex: 1;
-    background-color: #000;
-    
+    background-color: #ADF5FF;
+    width: 23%;
+    height: 33%;
+    float: left;
+    padding:20px;
+    margin: 10px;
     
 }
 .facebook{
     flex: 1;
-    background-color:blue; 
+    background-color: #0075A2; 
+    width: 23%;
+    height: 33%;
+    float: left;
+    padding:20px;
+    margin: 10px;
    
 
 }
 .youtube{
     flex: 1 ;
     background-color:red; 
-    
+    width: 23%;
+    height: 33%;
+    float: left;
+    padding:20px;
+    margin: 10px;
+}
+#footer{
+    width: 70%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.school{
+    /* background-color: saddlebrown; */
+    width: 35%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    margin: 10px;
+}
+.copyright{
+    /* background-color: palegreen; */
+    width: 35%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    margin: 10px;
 }
 .nav-bar {
     margin: auto;
@@ -184,7 +247,7 @@ a:active {
 #carousel{
     flex: 2;
     margin: 10px 0 10px 10px;
-    overflow: hidden;
+    overflow: hidden; 
 }
 #imgs{
     display: flex;
@@ -196,7 +259,7 @@ a:active {
     
 }
 #imgs img{
-    width: 500px;
+    width: 100%;
     object-fit: fill;
 }
 }
