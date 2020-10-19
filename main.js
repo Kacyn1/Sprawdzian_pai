@@ -25,6 +25,6 @@ function slider() {
     if(id>=zdjecia.length) {
         id=0;
     }
-    memy.style.transform=`translateX(${-id*500}px)`;
+    memy.style.transform=`translateX(${-id*1000}px)`;
 }
 setInterval(slider,2000);
