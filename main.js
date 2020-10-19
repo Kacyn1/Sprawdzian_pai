@@ -1,4 +1,5 @@
 const hamburger = document.querySelector('.hamburger');
+const hamburger = document.querySelector('.hamburger');
 
 const navBar = document.querySelector('.nav-bar');
 
